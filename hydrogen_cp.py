@@ -125,6 +125,6 @@ if __name__ == '__main__':
   ax2.set_ylabel('f$_{para}$', fontsize = 12)
   print(fpara_equil(1000.))
 
-#savefig('hydrogen_cp.png', bbox_inches = 'tight')
+  savefig('figs/hydrogen_cp.png', bbox_inches = 'tight')
 
-  show()
+  #show()
